@@ -25,6 +25,5 @@ if (options?.add) {
   const { name, email, phone } = options;
   if (name && email && phone) {
     addContact(name, email, phone);
-  } else {
   }
 }
